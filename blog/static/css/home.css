@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.navbar{
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right: 30px;
+    font-weight: 500;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.navbar .navbar-nav > .nav-item > .nav-link:hover{
+    color: rgb(96, 181, 233);
+    transition: all 0.2s ease;
+}
+.navbar .container-fluid > .navbar-brand:hover{
+    color: rgb(96, 181, 233);
+    transition: all 0.2s ease;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 15px #000;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.next .carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.next .carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 10px #000;
+}
+.next .carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 15px #000;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+.col-xl-2 .btn{
+    margin-bottom: 50rem;
+}
+.col-xl-2 .btn:hover{
+    background-color: rgb(96, 181, 233);
+    border: none;
+}
+.padding .col-md-4{
+    margin-top: 1rem ; 
+}
+.padding{
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+.padding h3{
+    font-weight: bold;
+}
+.welcome{ 
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+
+.Tag{
+    display: inline-block;
+    color: #fff;
+    background-color: #888;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px 5px;
+    font-size: 12px;
+    
+}
+.hi {
+    border: 0;
+    width: 55%;               
+    background-color: #b4b4b4;
+    height: 1px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.fa-code {
+    color: #e54d26;
+}
+
+.fa-bold {
+    color: #563d7c;
+}
+
+.fa-css3 {
+    color: #2163af;
+}
+
+.fa-bold, .fa-code, .fa-css3{
+    font-size: 4em;
+    margin: 1rem;
+}
+.hi{
+    border: 0;
+    width: 55%;               
+    background-color: #b4b4b4;
+    height: 1px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.card-body .btn:hover{
+    background-color: rgb(96, 181, 233);
+    border: none;
+}
+
+.col-12 h2{
+    padding-bottom: 1rem;
+}
+.col-xs-12 a{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.col-xs-12 .fa-facebook{
+    color: #3b5998;
+}
+
+.col-xs-12 .fa-facebook:hover{
+ color: #d5d5d5;
+}
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer p{
+    color: #d5d5d5;
+}
+footer h3{
+    color: #d5d5d5;
+}
+footer h5{
+    color: #d5d5d5;
+}
+hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+.col-12 h5{
+    padding-top: 10px;
+}
+
+.posts .card{
+    margin-top: 50px;
+    font-family: 'Secular One', sans-serif;
+}
+.more a{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+}
+.carousel-caption .btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.carousel-caption .btn a:hover{
+    color: #000;
+}
+.posts .card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transition: all 0.4s ease;
+} 
+.posts .card .card-body a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 320px){
+
+    .carousel-caption h1{
+        font-size: 1.5rem;
+    }
+    .carousel-caption h3{
+        font-size: 0.7rem;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption{
+        top: 35%;
+    }
+    .next.carousel-caption h1{
+        font-size: 1.5rem;
+    }
+    .next.carousel-caption h3{
+        font-size: 0.7rem;
+        padding-bottom: .2rem;
+    }
+    .next.carousel-caption{
+        top: 35%;
+    }
+    .welcome .col-12 .display-4{
+        font-size: 2.5rem;
+    }
+    .carousel-caption .btn{
+        font-size: 30%;
+        padding: 5px 9px;
+    }
+    .col-xs-12 a{
+        font-size: 2.5em;
+        padding: 1rem;
+    }
+    .col-xs-12 h3{
+        font-size: 30px;
+    }
+    hr.light-100{       
+        margin-bottom: .5rem;
+    }
+}
+@media screen and (min-width: 375px){
+
+    .carousel-caption h1{
+        font-size: 1.5rem;
+    }
+    .carousel-caption h3{
+        font-size: 0.7rem;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption{
+        top: 35%;
+    }
+    .next .carousel-caption h1{
+        font-size: 1.5rem;
+    }
+    .next .carousel-caption h3{
+        font-size: 0.7rem;
+        padding-bottom: .2rem;
+    }
+    .next .carousel-caption{
+        top: 40%;
+    }
+    .welcome .col-12 .display-4{
+        font-size: 2.5rem;
+    }
+    .carousel-caption .btn{
+        font-size: 30%;
+        padding: 5px 9px;
+    }
+    .col-xs-12 a{
+        font-size: 2.5em;
+        padding: 1rem;
+    }
+    .col-xs-12 h3{
+        font-size: 30px;
+    }
+    hr.light-100{       
+        margin-bottom: .5rem;
+    }
+
+}
+@media screen and (min-width: 425px){
+
+    .carousel-caption h1{
+        font-size: 1.5rem;
+    }
+    .carousel-caption h3{
+        font-size: 0.7rem;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption{
+        top: 35%;
+    }
+    .next .carousel-caption h1{
+        font-size: 1.5rem;
+    }
+    .next .carousel-caption h3{
+        font-size: 0.7rem;
+        padding-bottom: .2rem;
+    }
+    .next .carousel-caption{
+        top: 42%;
+    }
+    .welcome .col-12 .display-4{
+        font-size: 2.5rem;
+    }
+    .carousel-caption .btn{
+        font-size: 30%;
+        padding: 5px 9px;
+    }
+    .col-xs-12 a{
+        font-size: 2.5em;
+        padding: 1rem;
+    }
+    .col-xs-12 h3{
+        font-size: 30px;
+    }
+    hr.light-100{       
+        margin-bottom: .5rem;
+    }
+}
+@media screen and (min-width: 768px){
+
+    .carousel-caption h1{
+        font-size: 3rem;
+    }
+    .carousel-caption h3{
+        font-size: 1rem;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption{
+        top: 45%;
+    }
+    .next .carousel-caption h1{
+        font-size: 2.5rem;
+    }
+    .next .carousel-caption h3{
+        font-size: 1.4rem;
+        padding-bottom: .2rem;
+    }
+    .next .carousel-caption{
+        top: 49%;
+    }
+    .welcome .col-12 .display-4{
+        font-size: 2.5rem;
+    }
+    .carousel-caption .btn{
+        font-size: 55%;
+        padding: 5px 9px;
+    }
+    .col-xs-12 a{
+        font-size: 2.5em;
+        padding: 1rem;
+    }
+    .col-xs-12 h3{
+        font-size: 30px;
+    }
+    hr.light-100{       
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .carousel-caption{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .carousel-caption h1{
+        font-size: 500%;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 1px 1px 10px #000;
+    }
+    .carousel-caption h3{
+        font-size: 200%;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px 15px #000;
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+    
+    .next .carousel-caption{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .next .carousel-caption h1{
+        font-size: 500%;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 1px 1px 10px #000;
+    }
+    .next .carousel-caption h3{
+        font-size: 200%;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px 15px #000;
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+    .welcome .col-12 .display-4{
+        font-size: 3rem;
+    }
+
+    .carousel-caption .btn{
+        font-size: 1.5rem;
+
+    }
+
+    .col-xs-12 a{
+        font-size: 4em;
+        padding: 1rem;
+    }
+    .col-xs-12 h3{
+        font-size: 30px;
+    }
+    hr.light-100{       
+        margin-bottom: .5rem;
+    }
+}

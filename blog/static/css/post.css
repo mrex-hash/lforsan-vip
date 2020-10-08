@@ -1,0 +1,22 @@
+
+.navbar{
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right: 30px;
+    font-weight: 500;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.navbar .navbar-nav > .nav-item > .nav-link:hover{
+    color: rgb(96, 181, 233);
+    transition: all 0.2s ease;
+}
+.navbar .container-fluid > .navbar-brand:hover{
+    color: rgb(96, 181, 233);
+    transition: all 0.2s ease;
+}
+.container{
+    padding-top: 2rem;
+}

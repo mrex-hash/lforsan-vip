@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    margin-top: 1rem;
+}
+.welcome{ 
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.hi {
+    border: 0;
+    width: 55%;               
+    background-color: #b4b4b4;
+    height: 1px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.Tag{
+    display: inline-block;
+    color: #fff;
+    background-color: #888;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px 5px;
+    font-size: 12px;
+    
+}
+
+.navbar{
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right: 30px;
+    font-weight: 500;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.navbar .navbar-nav > .nav-item > .nav-link:hover{
+    color: rgb(96, 181, 233);
+    transition: all 0.2s ease;
+}
+.navbar .container-fluid > .navbar-brand:hover{
+    color: rgb(96, 181, 233);
+    transition: all 0.2s ease;
+}
+
+.posts .card{
+    margin-top: 50px;
+    font-family: 'Secular One', sans-serif;
+}
+.posts .card .card-body a{
+    text-decoration: none;
+    
+}
+.posts .card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transition: all 0.4s ease;
+}
